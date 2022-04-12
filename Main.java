@@ -5,12 +5,11 @@ class Main {
   public static void main(String[] args) {
     try {
       Service1 s = new Service1();
-      s.addStudent(new Student("Krzysztof", 20));
-      s.addStudent(new Student("Janusz", 40));
+      s.addStudent(new Student("Krzysztof", 20,"30.03.2003"));
+      s.addStudent(new Student("Janusz", 40, "31.02.1993"));
       
-      String imie;
+      String imie, data;
       int wiek,wybierz;
-      int znak;
       int i=0;
       while(i==0){
       System.out.println("Aby dodać studenta do listy klknij 1");
@@ -28,7 +27,9 @@ class Main {
               imie = wpisz.next();
               System.out.println("Podaj wiek studenta");
               wiek = wpisz.nextInt();
-              s.addStudent(new Student(imie, wiek));
+              System.out.println("Podaj date studenta");
+              data = wpisz.next();
+              s.addStudent(new Student(imie, wiek,data));
               break;
             }
           case 2:

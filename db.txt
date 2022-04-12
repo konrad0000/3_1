@@ -1,5 +1,6 @@
-Krzysztof 20
-Janusz 40
-Konrad 22
-Wojtek 23
-Bartek 24
+Krzysztof 20 30.03.2003
+Janusz 40 31.02.1993
+Krzysztof 20 30.03.2003
+Janusz 40 31.02.1993
+Konrad 23 20.03.2000
+Bartek 32 23.06.1994
