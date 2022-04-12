@@ -1,0 +1,5 @@
+Krzysztof 20
+Janusz 40
+Konrad 22
+Wojtek 23
+Bartek 24
